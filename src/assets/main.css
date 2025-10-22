@@ -1,1 +1,19 @@
 @import 'tailwindcss';
+
+@font-face {
+  font-family: monocraft;
+  src: url(../../Monocraft.ttf);
+}
+
+* {
+  font-family: monocraft;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5em;
+}
