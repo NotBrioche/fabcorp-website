@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import streamers from '@/assets/data/streamers.json'
+
 import PlayerHead from '../components/PlayerHead.vue'
 import StyledButton from '../components/StyledButton.vue'
 </script>
@@ -33,23 +35,12 @@ import StyledButton from '../components/StyledButton.vue'
         </div>
       </div>
       <div>
-        <h1>Le Crew</h1>
-        <div class="flex gap-x-3 justify-center flex-wrap w-[60%] mx-auto mt-8">
-          <PlayerHead username="NotBrioche" function="Développeur" />
-          <PlayerHead username="pxxie" function="Builder" />
-          <PlayerHead username="Metha_fort" function="Builder" />
-          <PlayerHead username="Cm_Blacky" function="Builder" />
-          <PlayerHead username="Moraly" function="Testeur" />
-          <PlayerHead username="Makishimu" function="Testeur" />
-          <PlayerHead username="sacrieur" function="Testeur" />
-        </div>
-      </div>
-      <div>
         <h1>Les Streamers</h1>
+        <p>Streamers avec lesquels nous avons pu collaborer pour créer un évènement</p>
         <div class="flex gap-x-3 justify-center flex-wrap w-[60%] mx-auto mt-8">
-          <PlayerHead username="MoonO_o" />
-          <PlayerHead username="shinystaar_" />
-          <PlayerHead username="TTVMaon_" />
+          <a v-for="streamer in streamers" :key="streamer.username" :href="streamer.twitch">
+            <PlayerHead :username="streamer.username" />
+          </a>
         </div>
       </div>
       <div>

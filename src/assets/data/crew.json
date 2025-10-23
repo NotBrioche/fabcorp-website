@@ -1,0 +1,6 @@
+{
+  "devs": ["NotBrioche"],
+  "build": ["pxxie", "Metha_fort", "Cm_Blacky"],
+  "test": ["Moraly", "Makishimu", "sacrieur"],
+  "players": []
+}

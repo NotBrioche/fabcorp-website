@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import crew from '@/assets/data/crew.json'
 import PlayerHead from '@/components/PlayerHead.vue'
 </script>
 
@@ -7,23 +8,19 @@ import PlayerHead from '@/components/PlayerHead.vue'
     <div>
       <h1>Développeurs</h1>
       <div class="flex gap-x-3 justify-center flex-wrap w-[60%] mx-auto">
-        <PlayerHead username="NotBrioche" />
+        <PlayerHead v-for="dev in crew.devs" :key="dev" :username="dev" />
       </div>
     </div>
     <div>
       <h1>Builders</h1>
       <div class="flex gap-x-3 justify-center flex-wrap w-[60%] mx-auto">
-        <PlayerHead username="pxxie" />
-        <PlayerHead username="Metha_fort" />
-        <PlayerHead username="Cm_Blacky" />
+        <PlayerHead v-for="builder in crew.build" :key="builder" :username="builder" />
       </div>
     </div>
     <div>
       <h1>Testeurs</h1>
       <div class="flex gap-x-3 justify-center flex-wrap w-[60%] mx-auto">
-        <PlayerHead username="Moraly" />
-        <PlayerHead username="Makishimu" />
-        <PlayerHead username="sacrieur" />
+        <PlayerHead v-for="tester in crew.test" :key="tester" :username="tester" />
       </div>
     </div>
     <div class="text-start">
