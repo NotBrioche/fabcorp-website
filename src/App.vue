@@ -1,7 +1,14 @@
 <script setup lang="ts">
-import MainPage from './views/MainPage.vue'
+import NavigationBar from './components/partials/NavigationBar.vue'
+import FooterInfo from './components/partials/FooterInfo.vue'
 </script>
 
 <template>
-  <MainPage />
+  <header class="p-5 border-b">
+    <NavigationBar />
+  </header>
+  <RouterView class="flex-auto" />
+  <footer class="mt-16 p-6 border-t">
+    <FooterInfo />
+  </footer>
 </template>
