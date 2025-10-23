@@ -36,7 +36,7 @@ import StyledButton from '../components/StyledButton.vue'
           <PlayerHead username="pxxie" function="Builder" />
           <PlayerHead username="Metha_fort" function="Builder" />
           <PlayerHead username="Cm_Blacky" function="Builder" />
-          <PlayerHead username="Moraly" function="Concept" />
+          <PlayerHead username="Moraly" function="Testeur" />
           <PlayerHead username="Makishimu" function="Testeur" />
           <PlayerHead username="sacrieur" function="Testeur" />
         </div>

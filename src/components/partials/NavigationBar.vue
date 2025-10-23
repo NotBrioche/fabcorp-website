@@ -7,7 +7,7 @@
     <img src="../../assets/images/title.png" class="h-16" />
     <div class="flex-1 flex justify-evenly items-center">
       <RouterLink to="/" :class="$route.fullPath == '/' ? 'underline' : ''">Home</RouterLink>
-      <RouterLink to="/presentation" :class="$route.fullPath == '/presentation' ? 'underline' : ''"
+      <RouterLink to="/crew" :class="$route.fullPath == '/crew' ? 'underline' : ''"
         >L'équipe</RouterLink
       >
       <RouterLink to="/projects" :class="$route.fullPath == '/projects' ? 'underline' : ''"

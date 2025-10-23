@@ -6,7 +6,7 @@ const props = defineProps(['text', 'route', 'url'])
 
 function redirect(): void {
   if (props.route) {
-    router.push(props.route)
+    router.replace(props.route)
   }
 
   if (props.url) {
