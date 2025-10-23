@@ -20,9 +20,9 @@ export const router = createRouter({
     {
       if (to.hash) {
         return { behavior: 'smooth', el: to.hash }
+      } else {
+        return { top: 0 }
       }
-
-      return { top: 0 }
     }
   },
   routes,

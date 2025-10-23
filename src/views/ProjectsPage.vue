@@ -3,9 +3,9 @@ import StyledButton from '@/components/StyledButton.vue'
 </script>
 
 <template>
-  <main class="flex flex-col gap-y-40 px-16 py-16">
+  <main class="flex flex-col gap-y-40 px-16 pt-16">
     <div class="flex justify-center gap-x-40">
-      <img src="../assets/images/temple.png" class="h-100" />
+      <img src="../assets/images/temple.png" class="h-100 hover:scale-110 transition-transform" />
       <div class="flex-auto">
         <h1>Champions du temple</h1>
         <p>
@@ -18,7 +18,7 @@ import StyledButton from '@/components/StyledButton.vue'
         <p>Version: 1.19.x</p>
         <p>Joueurs: 16 - 99 joueurs</p>
         <p>Type: PVP</p>
-        <p>Streamer: <a href="https://www.twitch.tv/mooonn_" target="_blank">Mooonn_</a></p>
+        <p>Streamer: <a href="https://www.twitch.tv/mooonn_">Mooonn_</a></p>
         <StyledButton
           url="https://www.planetminecraft.com/project/temple-5833113/"
           text="Télécharger"
@@ -41,9 +41,9 @@ import StyledButton from '@/components/StyledButton.vue'
         <p>Joueurs: 1 - 24</p>
         <p>Type: PVE</p>
         <p>
-          Streamers: <a href="https://www.twitch.tv/mooonn_" target="_blank">Mooonn_</a> /
-          <a href="https://www.twitch.tv/maonnn_" target="_blank">Maon_</a> /
-          <a href="https://www.twitch.tv/shinystaar_" target="_blank">shinystaar_</a> /
+          Streamers: <a href="https://www.twitch.tv/mooonn_">Mooonn_</a> /
+          <a href="https://www.twitch.tv/maonnn_">Maon_</a> /
+          <a href="https://www.twitch.tv/shinystaar_">shinystaar_</a> /
           <a>J'ai oublié son nom le pauvre</a>
         </p>
         <StyledButton
@@ -52,7 +52,7 @@ import StyledButton from '@/components/StyledButton.vue'
           class="mt-8"
         />
       </div>
-      <img src="../assets/images/boat.png" class="h-100" />
+      <img src="../assets/images/boat.png" class="h-100 hover:scale-110 transition-transform" />
     </div>
   </main>
 </template>

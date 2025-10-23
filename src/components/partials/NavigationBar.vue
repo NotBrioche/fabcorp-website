@@ -1,19 +1,22 @@
-<script setup lang="ts">
-// import { RouterLink } from 'vue-router'
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <nav class="flex justify-center items-center">
-    <img src="../../assets/images/title.png" class="h-16" />
+    <RouterLink to="/">
+      <img src="../../assets/images/title.png" class="h-16" />
+    </RouterLink>
     <div class="flex-1 flex justify-evenly items-center">
-      <RouterLink to="/" :class="$route.fullPath == '/' ? 'underline' : ''">Home</RouterLink>
-      <RouterLink to="/crew" :class="$route.fullPath == '/crew' ? 'underline' : ''"
+      <RouterLink to="/" :class="$route.path == '/' ? 'underline' : ''">Home</RouterLink>
+      <RouterLink to="/crew" :class="$route.path == '/crew' ? 'underline' : ''"
         >L'équipe</RouterLink
       >
-      <RouterLink to="/projects" :class="$route.fullPath == '/projects' ? 'underline' : ''"
+      <RouterLink to="/projects" :class="$route.path == '/projects' ? 'underline' : ''"
         >Projets</RouterLink
       >
-      <RouterLink to="/faq" :class="$route.fullPath == '/faq' ? 'underline' : ''">FAQ</RouterLink>
+      <RouterLink to="/faq" :class="$route.path == '/faq' ? 'underline' : ''">FAQ</RouterLink>
+      <RouterLink to="#contact" :class="$route.path == '/contact' ? 'underline' : ''"
+        >Contact</RouterLink
+      >
     </div>
   </nav>
 </template>

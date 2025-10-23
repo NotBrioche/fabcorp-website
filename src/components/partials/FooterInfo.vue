@@ -3,25 +3,23 @@
 <template>
   <div class="flex justify-around">
     <div class="flex flex-col">
-      <h2>Contact</h2>
-      <p>Email : @fabcorp.ch</p>
+      <h2 id="contact">Contact</h2>
+      <!-- <p>Email : contact@fabcorp.ch</p> -->
       <p>Discord : notbrioche</p>
     </div>
     <div class="flex flex-col">
       <h2>Liens</h2>
-      <a href="https://www.planetminecraft.com/member/notbrioche/" target="_blank"
-        >PlanetMinecraft</a
-      >
-      <a href="#" target="_blank">Discord</a>
-      <a href="https://github.com/NotBrioche" target="_blank">GitHub</a>
+      <a href="https://www.planetminecraft.com/member/notbrioche/">PlanetMinecraft</a>
+      <!-- <a href="#">Discord</a> -->
+      <a href="https://github.com/NotBrioche">GitHub</a>
     </div>
     <div class="flex flex-col">
       <h2>Informations</h2>
-      <a href="#">Comment participer?</a>
-      <a href="#">Comment contribuer?</a>
-      <a href="#">Développement</a>
-      <a href="#">Build</a>
-      <a href="#">FAQ</a>
+      <RouterLink to="/faq#participate">Comment participer?</RouterLink>
+      <RouterLink to="/faq#contribute">Comment contribuer?</RouterLink>
+      <RouterLink to="/faq#dev">Développement</RouterLink>
+      <RouterLink to="/faq#build">Build</RouterLink>
+      <RouterLink to="/faq">FAQ</RouterLink>
     </div>
   </div>
   <div class="text-center">© 2025 - Fabcorp</div>
