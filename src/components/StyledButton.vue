@@ -10,7 +10,7 @@ function redirect(): void {
   }
 
   if (props.url) {
-    window.open(props.url, '_blank')
+    window.open(props.url, '_self')
   }
 }
 </script>

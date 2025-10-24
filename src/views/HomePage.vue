@@ -21,10 +21,10 @@ import StyledButton from '../components/StyledButton.vue'
           <p>Une team spécialisé dans la réalisation de maps mini-jeux / aventure</p>
           <StyledButton text="En savoir plus" route="/crew" class="mt-8" />
         </div>
-        <img src="../assets/images/bg.jpg" class="h-100 hover:scale-110 transition-transform" />
+        <img src="../assets/images/bg.jpg" class="h-100 hover:scale-105 transition-transform" />
       </div>
       <div class="flex justify-between gap-x-40">
-        <img src="../assets/images/bg.jpg" class="h-100 hover:scale-110 transition-transform" />
+        <img src="../assets/images/bg.jpg" class="h-100 hover:scale-105 transition-transform" />
         <div>
           <h1>Nos projets</h1>
           <p>

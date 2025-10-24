@@ -1,0 +1,30 @@
+[
+  {
+    "image": "temple.png",
+    "title": "Champions du temple",
+    "description": "Une temple qui a été construit dans le but de trouver le meilleur candidat pour devenir un garde d'élite. Chaque étage est une épreuve pour juger la combativité et la force d'une personne. Beaucoup de gens y participent chaque année, seulement peu en reviennent.",
+    "crew": 3,
+    "version": "1.19.x",
+    "players": {
+      "min": 16,
+      "max": 99
+    },
+    "type": "pvp",
+    "streamers": ["MoonO_o"],
+    "url": "https://www.planetminecraft.com/project/temple-5833113/"
+  },
+  {
+    "image": "boat.png",
+    "title": "Bateau",
+    "description": "Vous êtes emenés dans l'arène. Un seul but être la meilleure équipe en tuant le plus de monstres. Après avoir subis plusieurs attaques de monstres, le gens ont trouvés comment éfficassement les tuer. Avec le temps ceci est devenu une compétition que le monde entier regarde à la télé. Une seule règle, faites le plus de points!",
+    "crew": 5,
+    "version": "1.19.x",
+    "players": {
+      "min": 1,
+      "max": 24
+    },
+    "type": "pve",
+    "streamers": ["MoonO_o", "TTVMaon_", "shinystaar_"],
+    "url": "https://www.planetminecraft.com/project/ar-ne-pve/"
+  }
+]
