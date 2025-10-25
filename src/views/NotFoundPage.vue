@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <main class="text-center flex items-center justify-center">
+  <main class="flex items-center justify-center text-center">
     <div>
       <div class="flex items-center justify-center">
         <img
@@ -9,7 +9,7 @@
           class="inline size-8"
           style="image-rendering: pixelated"
         />
-        <h1 class="inline mx-4">Page non valide!</h1>
+        <h1 class="mx-4 inline">Page non valide!</h1>
         <img
           src="../assets/images/barrier.png"
           class="inline size-8"

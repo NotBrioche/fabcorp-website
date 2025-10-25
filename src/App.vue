@@ -4,11 +4,11 @@ import FooterInfo from './components/partials/FooterInfo.vue'
 </script>
 
 <template>
-  <header class="p-5 border-b">
+  <header class="border-b p-5">
     <NavigationBar />
   </header>
   <RouterView class="flex-auto" />
-  <footer class="mt-16 p-6 border-t">
+  <footer class="border-t p-6">
     <FooterInfo />
   </footer>
 </template>

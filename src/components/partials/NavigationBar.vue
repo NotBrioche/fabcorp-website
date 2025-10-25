@@ -1,11 +1,11 @@
 <script setup lang="ts"></script>
 
 <template>
-  <nav class="flex justify-center items-center">
+  <nav class="flex items-center justify-center">
     <RouterLink to="/">
-      <img src="../../assets/images/title.png" class="h-16" />
+      <img src="../../assets/images/title.png" class="h-16 max-md:hidden" />
     </RouterLink>
-    <div class="flex-1 flex justify-evenly items-center">
+    <div class="max-xs:flex-col flex flex-1 items-center justify-evenly">
       <RouterLink to="/" :class="$route.path == '/' ? 'underline' : ''">Home</RouterLink>
       <RouterLink to="/crew" :class="$route.path == '/crew' ? 'underline' : ''"
         >L'équipe</RouterLink

@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <main class="px-16 pt-16 flex flex-col gap-y-8">
+  <main class="max-xs:text-center flex flex-col gap-y-8">
     <div>
       <h1 id="participate">Comment participer?</h1>
       <p>
@@ -11,7 +11,7 @@
     </div>
     <div>
       <h1 id="contribute">Comment contribuer?</h1>
-      <p>Prenez contact avec nous en distant comment vous voulez nous aider.</p>
+      <p>Prenez contact avec nous en disant comment vous voulez nous aider.</p>
     </div>
     <div>
       <h1>Tout est gratuit?</h1>
@@ -31,7 +31,7 @@
     </div>
     <div>
       <h1>J'aimerais voir plus sur la création des maps</h1>
-      <p>Venez sur le discord, des updates sur le projet sont postés!</p>
+      <p>Venez sur le discord, des updates sur les projets sont postés!</p>
     </div>
   </main>
 </template>

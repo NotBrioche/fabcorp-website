@@ -4,7 +4,7 @@ import ProjectCard from '@/components/ProjectCard.vue'
 </script>
 
 <template>
-  <main class="flex flex-col gap-y-40 px-16 pt-16">
+  <main class="flex flex-col gap-y-12 lg:gap-y-20">
     <ProjectCard
       v-for="project in projects"
       :key="project.title"

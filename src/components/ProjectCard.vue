@@ -6,13 +6,13 @@ const props = defineProps(['project', 'pos'])
 </script>
 
 <template>
-  <div class="flex justify-center gap-x-40">
+  <div class="items-cener max-xs:text-center flex justify-center gap-x-[8vw] max-lg:flex-col">
     <img
       v-if="!props.pos"
       :src="'images/' + props.project.image"
-      class="h-100 hover:scale-105 transition-transform"
+      class="object-scale-down max-lg:order-0 md:h-100 md:transition-transform md:hover:scale-105 lg:max-w-1/2"
     />
-    <div class="flex-auto">
+    <div class="flex-auto max-lg:order-1 max-md:mt-4">
       <h1>{{ props.project.title }}</h1>
       <p>
         {{ props.project.description }}
@@ -36,7 +36,7 @@ const props = defineProps(['project', 'pos'])
     <img
       v-if="props.pos"
       :src="'images/' + props.project.image"
-      class="h-100 hover:scale-105 transition-transform"
+      class="object-scale-down max-lg:order-0 md:h-100 md:transition-transform md:hover:scale-105 lg:max-w-1/2"
     />
   </div>
 </template>

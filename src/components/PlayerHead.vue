@@ -9,6 +9,6 @@ const url = `https://api.skins.minestrator.com/3d/${props.username}?angle=-45&si
     :src="url"
     :alt="username"
     :title="props.function ? `${username} - ${props.function}` : username"
-    class="hover:scale-105 transition-transform"
+    class="lg:transition-transform lg:hover:scale-105"
   />
 </template>

@@ -1,10 +1,10 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="flex justify-around">
+  <div class="flex justify-around max-md:flex-col max-md:gap-y-4">
     <div class="flex flex-col">
       <h2 id="contact">Contact</h2>
-      <!-- <p>Email : contact@fabcorp.ch</p> -->
+      <p>Email : contact@fabcorp.ch</p>
       <p>Discord : notbrioche</p>
     </div>
     <div class="flex flex-col">
@@ -22,5 +22,5 @@
       <RouterLink to="/faq">FAQ</RouterLink>
     </div>
   </div>
-  <div class="text-center">© 2025 - Fabcorp</div>
+  <div class="mt-4 text-center md:mt-2">© 2025 - Fabcorp</div>
 </template>
