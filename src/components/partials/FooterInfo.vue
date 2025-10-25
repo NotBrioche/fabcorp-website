@@ -4,8 +4,8 @@
   <div class="flex justify-around max-md:flex-col max-md:gap-y-4">
     <div class="flex flex-col">
       <h2 id="contact">Contact</h2>
-      <p>Email : contact@fabcorp.ch</p>
-      <p>Discord : notbrioche</p>
+      <a>Email : contact@fabcorp.ch</a>
+      <a>Discord : notbrioche</a>
     </div>
     <div class="flex flex-col">
       <h2>Liens</h2>

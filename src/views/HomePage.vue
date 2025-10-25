@@ -23,13 +23,13 @@ import StyledButton from '../components/StyledButton.vue'
         </div>
         <img
           src="../assets/images/crew.png"
-          class="object-scale-down transition-transform max-md:mt-4 md:h-100 md:hover:scale-105 lg:max-w-1/2"
+          class="object-scale-down transition-transform max-lg:pt-4 max-md:mt-4 md:h-100 md:hover:scale-105 lg:max-w-1/2"
         />
       </div>
       <div class="flex items-center justify-between gap-x-[8vw] max-lg:mt-4 max-lg:flex-col">
         <img
           src="../assets/images/projects.png"
-          class="object-scale-down transition-transform max-lg:order-2 max-md:mt-4 md:h-100 md:hover:scale-105 lg:max-w-1/2"
+          class="object-scale-down transition-transform max-lg:order-2 max-lg:pt-4 max-md:mt-4 md:h-100 md:hover:scale-105 lg:max-w-1/2"
         />
         <div class="max-lg:order-1">
           <h1>Nos projets</h1>

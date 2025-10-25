@@ -24,6 +24,10 @@
   p {
     @apply max-sm:text-md text-lg;
   }
+
+  * {
+    @apply text-md;
+  }
 }
 
 @font-face {
