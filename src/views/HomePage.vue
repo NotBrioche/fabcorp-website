@@ -11,7 +11,7 @@ import StyledButton from '../components/StyledButton.vue'
       <img src="../assets/images/bg.jpg" class="w-full max-sm:hidden" />
       <img
         src="../assets/images/title.png"
-        class="mx-auto mt-4 w-[80dvw] object-contain transition-transform sm:absolute sm:top-[30%] sm:left-[50%] sm:w-[45dvw] sm:-translate-x-1/2 md:hover:scale-105"
+        class="mx-auto mt-4 w-[80dvw] object-contain transition-transform sm:absolute sm:top-[30%] sm:left-[50%] sm:w-[45dvw] sm:max-w-[675px] sm:-translate-x-1/2 md:hover:scale-105"
       />
     </div>
     <div class="mt-8 flex flex-col gap-y-8 px-[8vw] lg:mt-40 xl:gap-y-24">

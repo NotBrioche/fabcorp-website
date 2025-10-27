@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <main class="max-xs:text-center flex flex-col gap-y-8">
+  <main class="flex flex-col gap-y-8">
     <div>
       <h1 id="participate">Comment participer?</h1>
       <p>

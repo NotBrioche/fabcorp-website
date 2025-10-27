@@ -10,7 +10,7 @@
 
 @layer base {
   main {
-    @apply xs:px-4 xs:py-8 px-2 py-4 sm:px-6 md:px-16 md:py-16;
+    @apply xs:px-10 xs:py-8 px-6 py-4 sm:px-6 md:px-16 md:py-16;
   }
 
   h1 {
@@ -26,7 +26,7 @@
   }
 
   * {
-    @apply text-md;
+    @apply text-md max-xs:text-justify;
   }
 }
 

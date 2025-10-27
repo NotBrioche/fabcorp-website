@@ -17,7 +17,7 @@ function redirect(): void {
 
 <template>
   <button
-    class="border border-black px-2 py-1 w-full focus:bg-black focus:text-white hover:opacity-60 hover:cursor-pointer"
+    class="border border-black px-2 py-1 w-full focus:bg-black focus:text-white hover:opacity-60 hover:cursor-pointer text-center"
     @click="redirect"
   >
     {{ props.text }}

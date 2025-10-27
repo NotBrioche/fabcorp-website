@@ -1,26 +1,17 @@
 <script setup lang="ts">
 import crew from '@/assets/data/crew.json'
-import PlayerHead from '@/components/PlayerHead.vue'
+import PlayerRender from '@/components/PlayerRender.vue';
+
+const titles = ["Développeurs", "Builders", "Testeurs"];
+const values = [crew.devs, crew.build, crew.test];
 </script>
 
 <template>
   <main class="flex flex-col justify-between gap-y-4 text-center">
-    <div>
-      <h1>Développeurs</h1>
-      <div class="mx-auto flex flex-wrap justify-center gap-x-3">
-        <PlayerHead v-for="dev in crew.devs" :key="dev" :username="dev" />
-      </div>
-    </div>
-    <div>
-      <h1>Builders</h1>
-      <div class="mx-auto flex flex-wrap justify-center gap-x-3">
-        <PlayerHead v-for="builder in crew.build" :key="builder" :username="builder" />
-      </div>
-    </div>
-    <div>
-      <h1>Testeurs</h1>
-      <div class="mx-auto flex flex-wrap justify-center gap-x-3">
-        <PlayerHead v-for="tester in crew.test" :key="tester" :username="tester" />
+    <div v-for="title in titles" :key="title">
+      <h1>{{ title }}</h1>
+      <div class="mx-auto flex flex-wrap justify-center gap-x-6">
+          <PlayerRender v-for="player in values[titles.indexOf(title)]" :key="player" :username="player" />
       </div>
     </div>
     <div class="mt-4 sm:text-start">
