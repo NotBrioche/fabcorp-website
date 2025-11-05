@@ -6,7 +6,7 @@
       <h1 id="participate">Comment participer?</h1>
       <p>
         Nous allons vers des streamers variés. Il faut être au bon moment au bon endroit ou suivre
-        nos information sur Discord.
+        nos informations sur Discord.
       </p>
     </div>
     <div>
@@ -15,7 +15,7 @@
     </div>
     <div>
       <h1>Tout est gratuit?</h1>
-      <p>Oui. Ce n'est pas dans notre intêret de rendre l'accès payant.</p>
+      <p>Oui. Ce n'est pas dans notre intérêt de rendre l'accès payant.</p>
     </div>
     <div>
       <h1>Comment vous supporter alors?</h1>
@@ -23,7 +23,7 @@
     </div>
     <div>
       <h1 id="dev">Comment est fait le développement?</h1>
-      <p>Cela dépends mais c'est soit un Datapack soit un Plugin.</p>
+      <p>Cela dépends, mais c'est soit un Datapack soit un Plugin.</p>
     </div>
     <div>
       <h1 id="build">Et pour le build?</h1>

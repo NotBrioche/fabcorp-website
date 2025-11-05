@@ -8,7 +8,7 @@ import StyledButton from '../components/StyledButton.vue'
 <template>
   <main class="sm:px-0 sm:pt-0">
     <div class="relative">
-      <img src="../assets/images/bg.jpg" class="w-full max-sm:hidden" />
+      <img src="../assets/images/bg.webp" class="w-full max-sm:hidden" />
       <img
         src="../assets/images/title.png"
         class="mx-auto mt-4 w-[80dvw] object-contain transition-transform sm:absolute sm:top-[30%] sm:left-[50%] sm:w-[45dvw] sm:max-w-[675px] sm:-translate-x-1/2 md:hover:scale-105"
@@ -22,19 +22,19 @@ import StyledButton from '../components/StyledButton.vue'
           <StyledButton text="En savoir plus" route="/crew" class="mt-8" />
         </div>
         <img
-          src="../assets/images/crew.png"
+          src="../assets/images/crew.webp"
           class="object-scale-down transition-transform max-lg:pt-4 max-md:mt-4 md:h-100 md:hover:scale-105 lg:max-w-1/2"
         />
       </div>
       <div class="flex items-center justify-between gap-x-[8vw] max-lg:mt-4 max-lg:flex-col">
         <img
-          src="../assets/images/projects.png"
+          src="../assets/images/projects.webp"
           class="object-scale-down transition-transform max-lg:order-2 max-lg:pt-4 max-md:mt-4 md:h-100 md:hover:scale-105 lg:max-w-1/2"
         />
         <div class="max-lg:order-1">
           <h1>Nos projets</h1>
           <p>
-            Nous avons déjà pu réaliser quelques projet en collaboration avec des streamers et
+            Nous avons déjà pu réaliser quelques projets en collaboration avec des streamers et
             espérons pouvoir continuer!
           </p>
           <StyledButton text="En savoir plus" route="/projects" class="mt-8" />
@@ -42,7 +42,7 @@ import StyledButton from '../components/StyledButton.vue'
       </div>
       <div>
         <h1>Les Streamers</h1>
-        <p>Streamers avec lesquels nous avons pu collaborer pour créer un évènement</p>
+        <p>Streamers avec lesquels nous avons pu collaborer pour créer un événement</p>
         <div class="mx-auto mt-8 flex flex-wrap justify-center gap-x-3">
           <a v-for="streamer in streamers" :key="streamer.username" :href="streamer.twitch">
             <PlayerHead :username="streamer.username" />
